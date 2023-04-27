@@ -109,7 +109,7 @@
 }
 
 
-.block1{
+.block1 {
     display: flex;
     margin: 0 auto;
     max-width: 1300px;
@@ -121,14 +121,14 @@
 }
 
 
-.block1__image{
+.block1__image {
     max-width: 400px;
     width: 50%;
     align-self: center;
-    
+
 }
 
-.block1__division{
+.block1__division {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -139,13 +139,13 @@
 
 }
 
-.block1__description{
+.block1__description {
     font-size: 1.25rem;
     font-weight: 300;
 
 }
 
-.block1__button{
+.block1__button {
     margin-top: 20px;
     color: white;
     max-width: 400px;
@@ -162,16 +162,16 @@
     font-weight: 500;
     align-self: center;
     animation: pulse 2s ease-in-out infinite;
-    
+
 }
 
-.block1__button:hover{
+.block1__button:hover {
     cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
 
-    .block1{
+    .block1 {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
@@ -179,12 +179,12 @@
     }
 }
 
-.block2{
+.block2 {
     background-color: rgba(102, 199, 255, 0.384);
-    
+
 }
 
-.block2__container{
+.block2__container {
     max-width: 1100px;
     width: 90%;
     max-height: 800px;
@@ -198,15 +198,15 @@
 }
 
 
-.block2__first{
+.block2__first {
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
-    
+
 
 }
 
-.block2__aside1{
+.block2__aside1 {
     background-color: #CE37F0;
     width: 6px;
     max-height: 250px;
@@ -214,15 +214,15 @@
 
 }
 
-.block2__aside2{
+.block2__aside2 {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     max-width: 200px;
-    
+
 }
 
-.block2__second > img{
+.block2__second>img {
     width: 210px;
     height: 210px;
     border-radius: 50%;
@@ -230,19 +230,19 @@
 }
 
 
-.block2__third{
+.block2__third {
     display: flex;
     max-width: 320px;
 
 }
 
 
-.block3{
+.block3 {
     background-color: #1B5193;
-    
+
 }
 
-.block3__container{
+.block3__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -254,21 +254,21 @@
     gap: 2rem;
 }
 
-.block3__title{
+.block3__title {
     color: white;
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 15px;
 }
 
-.block3__title > h2{
+.block3__title>h2 {
     font-size: 1.65rem;
     font-weight: 600;
     font-style: italic;
 
 }
 
-.block3__title > p{
+.block3__title>p {
     font-size: 1.65rem;
     font-weight: 600;
     font-style: italic;
@@ -276,23 +276,24 @@
 
 }
 
-.block3__feedbacks{
+.block3__feedbacks {
     display: flex;
     gap: 2rem;
     max-width: 1300px;
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 }
-.block3__audio-card{
+
+.block3__audio-card {
     background-color: white;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 373px ;
+    width: 373px;
     height: 280px;
     padding: 0px 20px 20px 20px;
     border-radius: 25px;
@@ -300,33 +301,67 @@
 }
 
 
-.block3__audio-card > h3{
+.block3__audio-card>h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 2.155rem;
     position: relative;
     top: -25px;
 }
-.block3__audio-card > p{
+
+.block3__audio-card>p {
     position: relative;
     top: -25px;
     color: rgb(71, 71, 71);
 }
 
-.block3__audio{
+.block3__audio {
     margin-top: 10px;
     position: relative;
     top: -15px;
 }
 
-.block3__audio-card > img{
+.block3__audio-card>img {
     border-radius: 50%;
     border: 6px solid #CE37F0;
     width: 134px;
     position: relative;
     bottom: 50px;
-    
+
 }
 
 
 
+.gap {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 3px dotted rgba(255, 255, 255, 0.356);
+    background-color: #1B5193;
+}
+
+
+.block4 {
+    background-color: #1B5193;
+
+}
+
+.block4__container {
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.block4__container>img {
+    width: 373px;
+    -webkit-box-shadow: 3px 4px 30px -11px  rgba(54, 54, 54, 0.75);
+    -moz-box-shadow: 3px 4px 30px -11px rgba(54, 54, 54, 0.75);
+    box-shadow: 3px 4px 30px -11px  rgba(54, 54, 54, 0.75);
+
+}
