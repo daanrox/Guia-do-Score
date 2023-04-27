@@ -1,68 +1,175 @@
-.header{
+.header {
     background-image: url(../src/assets/images/aumentar-score-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.header__container{
+.header__container {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     max-width: 1300px;
     width: 90%;
-    height: 1100px;
-    justify-content: space-around;
+    height: 800px;
+    justify-content: space-evenly;
     align-items: center;
     padding: 40px 0;
+    gap: 1.5rem;
 }
 
-.header__one{
+.header__one {
     color: white;
-    background-color: cadetblue;
+    background-color: rgba(70, 167, 142, 0.397);
     width: 350px;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 1.5rem;
     text-align: center;
+    margin-bottom: 15px;
 }
 
-.header__call{
+.header__call {
     text-transform: uppercase;
-    font-size: 2.85rem;
+    font-size: 2.850rem;
     text-align: center;
     color: rgb(255, 182, 23);
     font-weight: 500;
-    font-style: italic;
+    /* font-style: italic; */
+    height: 200px;
+    display: flex;
+    align-items: center;
 }
 
-.header__button{
+.header__video {
+    width: 100%;
+    height: 450px;
+    max-height: 100%;
+    padding-bottom: 20px;
+}
+
+.header__button {
     color: white;
+    max-width: 500px;
+    max-height: 100px;
+    height: fit-content;
+    width: 90%;
     background-color: red;
     outline: none;
     border: 1px solid red;
     text-transform: uppercase;
     border-radius: 30px;
-    font-size: 1.5rem;
-    padding: 15px 35px;
+    font-size: 1.25rem;
+    padding: 10px 30px;
     font-weight: 500;
     animation: pulse 2s ease-in-out infinite;
 }
 
+.header__button:hover {
+    cursor: pointer;
+}
+
 @keyframes pulse {
     0% {
-      transform: scale(1);
+        transform: scale(1);
     }
+
     50% {
-      transform: scale(1.2);
+        transform: scale(1.1);
     }
+
     100% {
-      transform: scale(1);
+        transform: scale(1);
     }
-  }
+}
 
 
-  .header__security{
-    width: 40%;
+.header__security {
+    max-width: 420px;
+    width: 70%;
     padding-top: 20px;
-  }
+}
+
+@media screen and (max-width: 600px) {
+    .header__container {
+        height: 800px;
+        padding: 30px 0;
+        gap: 0.5rem;
+        justify-content: space-around;
+    }
+
+    .header__call {
+        font-size: 1.5rem;
+        padding-top: 20px;
+    }
+
+}
+
+
+.block1{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1300px;
+    width: 90%;
+    padding: 50px 0;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.block1__image{
+    max-width: 500px;
+    width: 100%;
+    align-self: center;
+    
+}
+
+.block1__division{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 2rem;
+    max-width: 600px;
+    width: 100%;
+}
+
+.block1__description{
+    font-size: 1.25rem;
+    font-weight: 300;
+
+}
+
+.block1__button{
+    margin-top: 20px;
+    color: white;
+    max-width: 500px;
+    max-height: 100px;
+    height: fit-content;
+    width: 90%;
+    background-color: red;
+    outline: none;
+    border: 1px solid red;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-size: 1.25rem;
+    padding: 10px 30px;
+    font-weight: 500;
+    align-self: center;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.block1__button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .block1{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
