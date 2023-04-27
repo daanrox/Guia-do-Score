@@ -360,8 +360,69 @@
 
 .block4__container>img {
     width: 373px;
-    -webkit-box-shadow: 3px 4px 30px -11px  rgba(54, 54, 54, 0.75);
+    -webkit-box-shadow: 3px 4px 30px -11px rgba(54, 54, 54, 0.75);
     -moz-box-shadow: 3px 4px 30px -11px rgba(54, 54, 54, 0.75);
-    box-shadow: 3px 4px 30px -11px  rgba(54, 54, 54, 0.75);
+    box-shadow: 3px 4px 30px -11px rgba(54, 54, 54, 0.75);
 
+}
+
+.block5 {
+    background-color: #1B5193;
+}
+
+.block5__container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1250px;
+    width: 90%;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.block5__left {
+    display: flex;
+    flex-direction: column;
+   gap: 2rem;
+
+}
+
+.block5__left > iframe{
+    height: 315px;
+    width: 560px;
+    max-width: 100%;
+    outline: none;
+    border-radius: 15px;
+    border: 2px solid  #1B5193;
+
+}
+
+.block5__right{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ 
+}
+
+.block5__right > iframe{
+    height: 315px;
+    width: 560px;
+    max-width: 100%;
+    outline: none;
+    border-radius: 15px;
+    border: 2px solid  #1B5193;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .block5__left > iframe{
+        height: 265px;
+    }
+    .block5__right > iframe{
+        height: 265px;
+
+    }
 }
