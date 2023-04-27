@@ -3,6 +3,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    overflow-x: hidden;
+
 }
 
 .header__container {
@@ -16,6 +18,7 @@
     align-items: center;
     padding: 40px 0;
     gap: 1.5rem;
+
 }
 
 .header__one {
@@ -119,8 +122,8 @@
 
 
 .block1__image{
-    max-width: 500px;
-    width: 100%;
+    max-width: 400px;
+    width: 50%;
     align-self: center;
     
 }
@@ -131,7 +134,9 @@
     margin: 0 auto;
     gap: 2rem;
     max-width: 600px;
+    min-width: 500px;
     width: 100%;
+
 }
 
 .block1__description{
@@ -157,19 +162,20 @@
     font-weight: 500;
     align-self: center;
     animation: pulse 2s ease-in-out infinite;
+    
 }
 
 .block1__button:hover{
     cursor: pointer;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 768px) {
 
     .block1{
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        overflow-x: hidden;
+
     }
-
-
 }
