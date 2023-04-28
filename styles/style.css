@@ -485,6 +485,91 @@
 .block6__button:hover{
     cursor: pointer;
 }
-.block7{
 
+
+.block7{
+    background: rgb(31,78,144);
+    background: linear-gradient(45deg, rgba(31,78,144,1) 0%, rgba(213,44,129,1) 100%);
+}
+
+
+.block7__container{
+    max-width: 1250px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.block7__title{
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.block7__title > p{
+    font-size: 2rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+    .block7__title > p{
+    font-size: 1.5rem;
+        
+    }
+}
+
+
+.block7__title > span{
+    text-align: center;
+}
+
+.block7__card-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    padding: 25px 0;
+}
+
+.block7__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 35px;
+    max-width: 600px;
+    width: 100%;
+    gap: 2rem;
+}
+
+.block7__card > img{
+    width: 90%;
+    position: relative;
+    right: 30px;
+}
+
+.block7__card > p{
+    color: #CE37F0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.block7__card > h3{
+    text-transform: uppercase;
+    font-size: 1.15rem;
+    text-align: center;
 }
