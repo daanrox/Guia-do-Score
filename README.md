@@ -9,6 +9,7 @@ O site foi desenvolvido utilizando as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript puro
+- Pixel Facebook
 
 Não foi utilizado nenhum framework ou biblioteca para o desenvolvimento deste projeto.
 
