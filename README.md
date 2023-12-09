@@ -3,6 +3,9 @@
 
 Este repositório contém o código fonte para um site de vendas de um guia do Score, com dicas de como aumentar sua pontuação.
 
+### Deploy
+Aplicação em produção [https://daanrox.github.io/Guia-do-Score/](https://daanrox.github.io/Guia-do-Score/)
+
 ## Tecnologias Utilizadas
 O site foi desenvolvido utilizando as seguintes tecnologias:
 
