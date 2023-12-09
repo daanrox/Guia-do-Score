@@ -1,5 +1,5 @@
 
-# Guia do Score - README
+# Guia do Score
 
 Este repositório contém o código fonte para um site de vendas de um guia do Score, com dicas de como aumentar sua pontuação.
 
